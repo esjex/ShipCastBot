@@ -1,0 +1,146 @@
+{
+	"origin": [
+		"#standardforecast#",
+		"#galewarnings#",
+		"#icelandforecast#",
+		"#standardforecast#"
+	],
+	"standardforecast": [
+		"#regions#. #winddirection.capitalize# #windstrength#. #weather.capitalize#. #visibility.capitalize#."
+	],
+	"icelandforecast": [
+		"Southeast Iceland. #winddirection.capitalize# #windstrength#. #weather.capitalize#. #visibility.capitalize#. #icing.capitalize#."
+	],
+
+	"icing": [
+		"light icing",
+		"moderate icing",
+		"severe icing"
+	],
+	"regions": [
+		"#regionnortheast#",
+		"#regionnorthwest#",
+		"#regionsoutheast#",
+		"#regionsouthwest#",
+		"#regionnortheast#, #regionnorthwest#",
+		"#regionnorthwest#, #regionnortheast#",
+		"#regionsoutheast#, #regionsouthwest#",
+		"#regionsouthwest#, #regionsoutheast#"
+	],
+	"regionnortheast": [
+		"Viking",
+		"North Utsire",
+		"South Utsire",
+		"Forties",
+		"Cromarty",
+		"Forth"
+	],
+	"regionnorthwest": [
+		"Rockall",
+		"Malin",
+		"Hebrides",
+		"Bailey",
+		"Fair Isle",
+		"Faeroes",
+		"Southeast Iceland"
+	],
+	"regionsoutheast": [
+		"Tyne",
+		"Dogger",
+		"Fisher",
+		"German Bight",
+		"Humber",
+		"Thames",
+		"Dover",
+		"Wight",
+		"Portland"
+	],
+	"regionsouthwest": [
+		"Plymouth",
+		"Biscay",
+		"Trafalgar",
+		"FitzRoy",
+		"Sole",
+		"Lundy",
+		"Fastnet",
+		"Irish Sea",
+		"Shannon"
+	],
+	"winddirection": [
+		"north",
+		"south",
+		"east",
+		"west",
+		"northeast",
+		"southeast",
+		"northwest",
+		"southwest"
+	],
+	"windstrength": [
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"gale 8",
+		"strong gale 9",
+		"storm 10",
+		"1 or 2",
+		"2 or 3",
+		"3 or 4",
+		"4 or 5",
+		"5 or 6",
+		"6 or 7",
+		"7 or gale 8",
+		"violent storm 11",
+		"hurricane force 12"
+	],
+	"weather": [
+		"fair",
+		"rain",
+		"showers",
+		"drizzle",
+		"snow",
+		"thundery showers",
+		"squally showers",
+		"snow showers"
+	],
+	"visibility": [
+		"good",
+		"moderate",
+		"poor",
+		"extensive fog",
+		"#vismod#"
+	],
+	"vismod": [
+		"#visvar# later",
+		"#visvar#"
+	],
+	"visvar": [
+		"good, #visvarconnect# moderate",
+		"moderate, #visvarconnect# poor",
+		"moderate, #visvarconnect# good",
+		"poor, #visvarconnect# moderate"
+	],
+	"visvarconnect": [
+		"occasionally",
+		"becoming",
+		"then"
+	],
+	"galewarnings": [
+		"There are warnings of gales in #galewarningregions#.",
+		"There are warnings of gales in all areas except #galewarningregions#."
+	],
+	"galewarningregions": [
+		"#regionnortheast#",
+		"#regionnorthwest#",
+		"#regionsoutheast#",
+		"#regionsouthwest#",
+		"#regionnortheast# and #regionnorthwest#",
+		"#regionnortheast# and #regionsoutheast#",
+		"#regionsoutheast# and #regionsouthwest#",
+		"#regionsouthwest# and #regionnorthwest#"
+	]
+}
